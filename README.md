@@ -116,7 +116,7 @@ npm run build:all  # Build for all platforms
 ## 📸 Screenshots
 
 <div align="center">
-  <img src="https://via.placeholder.com/800x500/f3f4f6/374151?text=Copy+Items+by+Path+Interface" alt="Main Interface" width="800">
+  <img src="assets/app-img.png" alt="Copy Items by Path - Main Interface" width="800">
   <p><em>Clean, intuitive interface for efficient file management</em></p>
 </div>
 
@@ -140,7 +140,7 @@ If you encounter any bugs or have feature requests, please [create an issue](htt
 
 ## 💬 Support
 
-- 📧 Email: [Your Email]
+- 📧 Email: ajiavt@gmail.com
 - 🐛 Issues: [GitHub Issues](https://github.com/ajiavt/copy-items-by-path/issues)
 - 💡 Discussions: [GitHub Discussions](https://github.com/ajiavt/copy-items-by-path/discussions)
 
