@@ -1,0 +1,28 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1E40AF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" rx="80" fill="url(#bg)"/>
+
+  <!-- Folder icon -->
+  <path d="M128 160 L384 160 Q404 160 404 180 L404 352 Q404 372 384 372 L128 372 Q108 372 108 352 L108 180 Q108 160 128 160 Z" fill="#FFF" opacity="0.9"/>
+  <path d="M108 180 L200 180 L220 160 L280 160 L300 180 L404 180" fill="none" stroke="#FFF" stroke-width="2" opacity="0.7"/>
+
+  <!-- Copy arrows -->
+  <g transform="translate(256, 256)">
+    <!-- Arrow 1 -->
+    <path d="M-60 -40 L-20 -40 L-20 -60 L20 -20 L-20 20 L-20 0 L-60 0 Z" fill="#FFF" opacity="0.8"/>
+    <!-- Arrow 2 -->
+    <path d="M-40 40 L0 40 L0 20 L40 60 L0 100 L0 80 L-40 80 Z" fill="#FFF" opacity="0.6"/>
+  </g>
+
+  <!-- Path line -->
+  <path d="M100 280 Q150 300 200 280 Q250 260 300 280 Q350 300 400 280"
+        stroke="#FFF" stroke-width="3" fill="none" opacity="0.5" stroke-dasharray="5,5"/>
+</svg>
+

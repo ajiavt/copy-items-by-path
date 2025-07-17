@@ -1,0 +1,48 @@
+{
+  "name": "copy-items-by-path",
+  "version": "1.0.0",
+  "description": "A professional utility for copying files and folders by path",
+  "main": "src/main.js",
+  "homepage": "./",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "build:win": "electron-builder --win",
+    "build:mac": "electron-builder --mac",
+    "build:all": "electron-builder --win --mac",
+    "dev": "electron . --dev"
+  },
+  "keywords": ["electron", "file-manager", "copy", "utility"],
+  "author": "Copy Items by Path",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^37.2.2",
+    "electron-builder": "^26.0.12",
+    "tailwindcss": "^4.1.11"
+  },
+  "build": {
+    "appId": "com.copyitemsbypath.app",
+    "productName": "Copy Items by Path",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "src/**/*",
+      "index.html",
+      "assets/**/*",
+      "node_modules/**/*"
+    ],
+    "mac": {
+      "icon": "assets/logo.svg.png",
+      "category": "public.app-category.utilities"
+    },
+    "win": {
+      "icon": "assets/logo.svg.png",
+      "target": "nsis"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true
+    }
+  }
+}
