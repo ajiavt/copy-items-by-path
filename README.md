@@ -27,13 +27,17 @@ Copy Items by Path is a powerful desktop application built with Electron that al
 
 ### Download
 
-Choose your platform and download the latest version:
+**[📥 Download Latest Release](https://github.com/ajiavt/copy-items-by-path/releases/latest)**
 
-| Platform | Download Link | Format |
-|----------|---------------|---------|
-| **Windows** | [Download for Windows](https://github.com/ajiavt/copy-items-by-path/releases/latest/download/Copy.Items.by.Path.Setup.1.0.0.exe) | `.exe` installer |
-| **macOS** | [Download for macOS](https://github.com/ajiavt/copy-items-by-path/releases/latest/download/Copy.Items.by.Path-1.0.0-arm64.dmg) | `.dmg` installer |
-| **macOS (Portable)** | [Download Portable](https://github.com/ajiavt/copy-items-by-path/releases/latest/download/Copy.Items.by.Path-1.0.0-arm64-mac.zip) | `.zip` archive |
+Choose your platform from the releases page:
+
+| Platform | File Format | Description |
+|----------|-------------|-------------|
+| **Windows** | `.exe` installer | Full installer with automatic setup |
+| **macOS** | `.dmg` installer | Drag-and-drop installer for Mac |
+| **macOS (Portable)** | `.zip` archive | Portable version, no installation required |
+
+> 💡 **Note**: If no releases are available yet, you can build from source using the development instructions below.
 
 ### Installation
 
